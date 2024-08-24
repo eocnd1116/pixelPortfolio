@@ -25,3 +25,8 @@ function cookieReset(_key, _value) {
     }
     return cookieGet(_key);
 }
+
+
+function link(_type, _num) {
+    return "https://eocnd1116.github.io/pixelPortfolio/index.html?type="+String(_type)+"&n="+String(_num);
+}
