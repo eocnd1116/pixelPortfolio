@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Galmuri9";
+    src: url("../asset/font/Galmuri9.ttf") format("truetype");
+    font-weight: normal;
+}
+
+* {
+    font-family: 'Galmuri9', serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration-line: none;
+    color:rgb(117, 148, 148);
+    margin-left: 0px;
+    transition: color 0.5s, margin-left 0.3s;
+}
+a:hover {
+    color:rgb(26, 78, 219);
+    margin-left: 20px;
+}
+
+hr {
+    height : 2px;
+    background-color : rgb(117, 148, 148);
+    border : 0;
+}
+
+.tTitle {
+    font-size: 40px;
+    margin: 20px
+}
