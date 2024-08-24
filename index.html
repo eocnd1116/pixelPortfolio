@@ -11,8 +11,8 @@
     
     <script>
         const searchParams = new URLSearchParams(location.search);
-        type=searchParams.get('type');
-        n=searchParams.get('n');
+        type=parseInt(searchParams.get('type'));
+        n=parseInt(searchParams.get('n'));
     </script>
     
     <!--<style>
